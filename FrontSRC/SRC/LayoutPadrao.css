@@ -1,0 +1,64 @@
+body{
+    height: 10vh;
+    margin: 0;
+}
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+.menu{
+width: 80%;
+display: flex;
+justify-content: start;
+padding-left: 20px;
+}
+.perfil{
+    width: 20%;
+    display: flex;
+   justify-content: end;
+    
+    padding-right: 20px;
+}
+.itemmenu{
+margin-right: 10px;
+background-color: rgb(40, 201, 134);
+color: #ffff;
+width: 80px;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+align-items: center;
+}
+.itemmenu:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.pessoa{
+    margin-right: 20px;
+}
+.loginlogoff{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: #ffff;
+    justify-content: center;
+    border-radius: 10px;
+}
+.loginlogoff:hover{
+    background-color: yellow;
+    color: black;
+}
+.pagina{
+    border: 2px rgba(0, 67, 2, 0.556) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 800%;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+}
